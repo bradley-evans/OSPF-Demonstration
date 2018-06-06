@@ -1,0 +1,12 @@
+Jun 01 14:07:42.576 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 01 14:07:42.577 HYPERVISOR: Started on IP = 192.168.80.1, TCP port = 21148.
+Jun 01 14:07:43.026 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 01 14:07:43.027 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\squel\GNS3\projects\OSPF Demonstration\project-files\dynamips 
+Jun 01 14:07:43.027 GENERAL: working_dir=C:\Users\squel\GNS3\projects\OSPF Demonstration\project-files\dynamips
+Jun 01 14:07:43.027 HYPERVISOR: exec_cmd: ethsw create SW1 
+Jun 01 14:07:45.088 HYPERVISOR: exec_cmd: nio create_udp udp-a8e5f500-0761-46ee-b689-b74920e68799 10001 192.168.80.1 10000 
+Jun 01 14:07:45.090 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-a8e5f500-0761-46ee-b689-b74920e68799 
+Jun 01 14:07:45.096 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-a8e5f500-0761-46ee-b689-b74920e68799 1 
+Jun 01 14:07:46.835 HYPERVISOR: exec_cmd: nio create_udp udp-1a935263-65ba-4e4a-931d-1cde135c1bb3 10026 192.168.80.130 10000 
+Jun 01 14:07:46.836 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-1a935263-65ba-4e4a-931d-1cde135c1bb3 
+Jun 01 14:07:46.857 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-1a935263-65ba-4e4a-931d-1cde135c1bb3 1 
